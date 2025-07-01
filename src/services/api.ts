@@ -2,7 +2,8 @@ import axios from 'axios';
 import type { User, Submission, ApiService } from '../types';
 
 const CF_API_URL = 'https://codeforces.com/api';
-const BACKEND_URL = 'https://cf-face-off.vercel.app';
+const BACKEND_URL = 'http://locahost:3000';
+// const BACKEND_URL = 'https://cf-face-off.vercel.app';
 
 // Rate limiting
 let lastRequestTime = 0;

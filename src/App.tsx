@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
+    <QueryClientProvider client={queryClient} >
       <RecoilRoot>
         <Router>
           <div className="min-h-screen bg-gray-50">

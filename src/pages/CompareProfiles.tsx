@@ -316,7 +316,7 @@ const CompareProfiles: React.FC = () => {
                 <img
                   src={data.user.titlePhoto}
                   alt={`${data.handle}'s profile`}
-                  className="w-24 h-24 rounded-full border-2 border-gray-200"
+                  className="w-24 h-24 rounded-full border-2 border-gray-200 object-cover object-center"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = 'https://codeforces.org/sites/default/files/userpic/default.jpg';

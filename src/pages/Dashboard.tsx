@@ -325,7 +325,7 @@ const Dashboard = () => {
           <img 
             src={user.titlePhoto} 
             alt={user.handle} 
-            className="w-20 h-20 rounded-full border-4"
+            className="w-20 h-20 rounded-full border-4 object-cover object-center"
             style={{ borderColor: getRatingColor(user.rating) }}
           />
           <div>
