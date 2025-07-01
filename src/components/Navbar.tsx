@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="flex justify-center items-center relative transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110">
-              <img src="../../public/icon.png" alt="" className='w-14' />
+              <img src="/icon.png" alt="" className='w-14' />
               <span className="text-xl font-bold text-gray-800 group-hover:text-indigo-600 transition-colors duration-300">
                 CF FaceOFF
               </span>
